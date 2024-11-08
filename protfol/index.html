@@ -6,11 +6,16 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=school" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Rajdhani:wght@400;500;600&display=swap" rel="stylesheet">
+
+
    
     <title>Portfolio</title>
 </head>
 <body>
   <div class="container">
+    <!-- Navigation Bar-->
     <div class="navibar">
         <div class="logo-title">
             <img class="logo" src="/images/V-logo-removebg-preview.png" alt="name-logo"/>
@@ -19,7 +24,14 @@
 
         </div>
 
+        <div class="drop-down" onclick="toggleMenu()">
+          <a href="#" id="dropdown" style="color: black;"> 
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+
         <div class="navTages">
+          
             <a  href="#Home"> Home</a>
             <a  href="#About"> About</a>
             <a  href="#Skill"> Skill</a>
@@ -29,8 +41,9 @@
         </div>
     </div>
 
+    <!--HomePage-->
     <div class="homePage" id="#home">
-       <div> 
+       <div class="header-info"> 
         <h1>
             Hi There!  
             <br>
@@ -56,13 +69,15 @@
         
     </div>
 
+    <!--SocialMedia-Icons-->
     <div class="social-icons">
         <a href="https://www.linkedin.com/in/vardhaman-mehta-96635228b/" target="_blank" class="icon linkedin" aria-label="LinkedIn" id="so-icon"></a>
-        <a href="https://github.com/Vardhaman-Mehta" target="_blank" class="icon github" aria-label="github" id="so-icon"></a>
+        <a href="https://github.com/Vardhaman-Mehta" src="/images/github-img.png" target="_blank" class="icon github+" aria-label="github" id="so-icon"></a>
         <a href="https://www.instagram.com" target="_blank" class="icon instagram" aria-label="Instagram" id="so-icon"></a>
         <a href="https://www.facebook.com" target="_blank" class="icon facebook" aria-label="Facebook" id="so-icon"></a>
     </div>
 
+    <!--Profile--Information -->
   <div>
     <div class="profile" data-aos="fade-up" data-aos-duration="1500" id="#About">   
         <h1>
@@ -85,7 +100,7 @@
     </div> 
 
     
-    <div data-aos=fade-left data-aos-duration="3000">
+    <div data-aos=fade-left data-aos-duration="3000" class="information">
         <h2> I'm Vardhaman</h2>
 
       <div data-aos=fade-right data-aos-duration="3000">
@@ -207,7 +222,7 @@
             </div>
         </section>
     </div>    
-      <!-- end-->
+      
 
     <!-- My Education-->
     
@@ -220,24 +235,24 @@
           </svg>
         -->  
       <div id="title-t">
-        <div data-aos="fade-up" data-aos-duration="1500">
+        <div data-aos="fade-up" data-aos-duration="1500" class="my-edu-title">
           <h2 >My Education</h2>
         </div>
 
-        <div data-aos="fade-up" data-aos-duration="1500">
+        <div data-aos="fade-up" data-aos-duration="1500" class="sect-para">
         <p>Education is the key to unlock a golden door of freedom.</p>
         </div>
       </div>
-          
-
       </div> 
+
+
       <div class="education-cards">
           <div class="education-card" data-aos=fade-right data-aos-duration="2500">
 
               <div><img src="/images/DJ-img.jpg" alt="DJ-img"/></div>
               <div  id="wit">
-                <h1>Digamber Jain Gurukul, Solapur</h1>
-              <p id="stream">Science Stream</p>
+                <h1>SSC Board</h1>
+              <p id="stream">Digamber Jain Gurukul, Solapur</p>
               <p id="year"><strong>Completed in 2021</strong></p>
               </div>
               
@@ -266,9 +281,8 @@
       </div>
       </div>
   </div>
- <!-- ends -->
 
-
+  <!-- Review-Section -->
  <div class="review-section">
   <!-- Vardhaman's Portfolio -->
 
@@ -282,14 +296,14 @@
   <!-- Quick Links -->
   <div class="review-column" id="two">
       <h3 id="review-title">Quick Links</h3>
-     <lu>
+     <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#work">Work</a></li>
           <li><a href="#contact">Contact</a></li>
-      </lu>
+     </ul>
   </div>
 
   <!-- Contact Info -->
@@ -301,6 +315,7 @@
   </div>
 </div>
 
+  <!--End-Section -->
 <div class="end-section">
   <hr>
   <p id="end-p">

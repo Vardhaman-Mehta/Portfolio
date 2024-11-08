@@ -1,7 +1,7 @@
 const textArray = [
     "Welcome to My Portfolio",
     "Front-End Developer",
-    "Full-Stack Developer",
+    "Full-Stack Web Developer",
     "Connect With Me"
 ];
 
@@ -44,3 +44,9 @@ function typeEffect() {
 // Start the typing effect
 document.addEventListener("DOMContentLoaded", () => setTimeout(typeEffect, 1000));
    
+
+function toggleMenu() {
+    const navTages = document.querySelector('.navTages');
+    navTages.classList.toggle('show');
+  }
+  
