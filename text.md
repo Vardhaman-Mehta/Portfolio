@@ -2,7 +2,7 @@
 
 Welcome to the repository for my personal portfolio website! This project showcases my work, skills, and experiences as a developer. Check out the sections below to learn more about the project setup, design, and technologies used.
 
-![Portfolio Screenshot](path/to/your-image.png)
+![Portfolio Screenshot](/images/Screenshot%202024-11-08%20201440.png)
 
 ---
 
@@ -39,7 +39,7 @@ This is the front page of my **portfolio website** where I present my projects, 
 | ![HTML5 Icon](https://img.icons8.com/color/48/000000/html-5.png) **HTML5**       | Structure and content  |
 | ![CSS3 Icon](https://img.icons8.com/color/48/000000/css3.png) **CSS3**         | Styling and layout     |
 | ![JavaScript Icon](https://img.icons8.com/color/48/000000/javascript.png) **JavaScript** | Interactive elements   |
-| ![React Icon](https://img.icons8.com/color/48/000000/react-native.png) **React** | (Optional) Front-end framework for UI |
+
 
 ---
 
@@ -49,7 +49,7 @@ To view this project locally, follow these steps:
 
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/portfolio-frontpage.git
+git clone https://github.com/Vardhaman-Mehta/Portfolio
 
 # Go to the project directory
-cd portfolio-frontpage
+cd portfolio

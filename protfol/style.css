@@ -7,6 +7,10 @@
   'opsz' 24
 }
 
+body {
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -48,10 +52,9 @@ html {
   }
   
   .drop-down {
-    display: none; /* Hidden on larger screens */
+    display: flex; /* Hidden on larger screens */
     cursor: pointer;
   }
-
 
   
   /* Responsive Styles */
@@ -168,6 +171,12 @@ p:hover {
 @media (max-width: 768px) {
     .header-info {
         margin-left: 25%;
+    }
+}
+
+@media (max-width: 415px) {
+    .header-info h1 {
+        font-size: 2rem;
     }
 }
 
@@ -357,11 +366,10 @@ h1{
     
     .github {
         background-image: url('https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png');
-        
     }
     
-    .instagram {
-        background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png');
+    .twitter {
+       background-image: url('');
     }
     
     .facebook {
@@ -492,6 +500,29 @@ h1{
             margin-top: 20px;
         }
     }
+
+    @media (max-width: 415px) {
+        .information h2  {
+            margin-left: 70px;
+        }
+    }
+
+    @media (max-width: 415px) {
+        .information span  {
+            margin-left: 70px;
+        }
+    }
+
+    @media (max-width: 415px) {
+        #para1 {
+            margin-left: 70px;
+            width: auto;
+            font-size: 1rem;
+            max-width: 300px; /* Adjust as needed */
+           
+        }
+    }
+
 
     @media (max-width: 740px) {
         h2 {
@@ -707,10 +738,44 @@ h1{
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
+
+    @media (max-width: 415.20px) {
+        .my-edu-title h2 {
+            margin-left: 200px;
+        }
+    }
+
+    @media (max-width: 415.20px) {
+        #quate {
+            font-size: 14px;
+            margin-left: 130px;
+            max-width: 300px;
+            
+        }
+    }
+
+    @media (max-width: 415.20px) {
+        .education-card {
+            display: flex;
+            flex-direction: column;
+            height: 30rem;
+            gap: 30px;
+        }
+    }
+
+    @media (max-width: 415.20px) {
+        .education-card h1 {
+            margin-left: 30px;
+        }
+    }
+
+
     .education-card img {
         height: 15rem;
         width: 22rem;
     }
+
+   
 
     @media (max-width: 740px) {
         .education-card img {
@@ -966,6 +1031,12 @@ h1{
             margin-right: 100px;
             
         }
+    }
+
+    @media (max-width: 415.20px) {
+        #end-p {
+            margin-left: -28%;
+        } 
     }
 
     /* Responcive */
