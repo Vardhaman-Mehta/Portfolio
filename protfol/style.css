@@ -215,6 +215,8 @@ h1{
     color: maroon;
 }
 
+
+
 #dynamicText::after {
     content: "|";
     animation: blink 0.7s infinite;
@@ -369,7 +371,7 @@ h1{
     }
     
     .twitter {
-       background-image: url('');
+       background-image: url('https://cdn-icons-png.flaticon.com/512/124/124021.png');
     }
     
     .facebook {
@@ -1055,7 +1057,43 @@ h1{
         }
     }
 
-   
+    @media (max-width: 320px) {
+        #dynamicText {
+            font-size: 1.9rem;
+        }
+    }
+
+    @media (max-width: 378px) {
+        #dynamicText {
+            font-size: 1.4rem;
+        }
+    }
+
+    @media (max-width: 378px) {
+        #dynamicText {
+            font-size: 1.4rem;
+        }
+    }
+
+    @media (min-width: 390px) {
+        #dynamicText {
+            font-size: 1.7rem;
+        }
+    }
+
+
+
+    @media (max-width: 378px) {
+        #dynamicText {
+            font-size: 1.4rem;
+        }
+    }
+    @media (min-width: 400px) {
+        #dynamicText {
+            font-size: 1.5rem;
+        }
+    }
+
 
     
 
