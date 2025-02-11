@@ -2,7 +2,7 @@
 
 Welcome to the repository for my personal portfolio website! This project showcases my work, skills, and experiences as a developer. Check out the sections below to learn more about the project setup, design, and technologies used.
 
-![Portfolio Screenshot](https://github.com/Vardhaman-Mehta/Portfolio/tree/master/images/Screenshot%202024-11-08%20201440.png)
+![Portfolio Screenshot](https://github.com/Vardhaman-Mehta/Portfolio/blob/master/images/Screenshot%202024-11-15%20192829.png)
 
 ---
 
