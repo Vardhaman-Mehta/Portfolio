@@ -49,4 +49,16 @@ function toggleMenu() {
     const navTages = document.querySelector('.navTages');
     navTages.classList.toggle('show');
   }
+
+
+
+function typeEffect() {
+    const page = document.getElementById("homePage");
+
+    
+}
+
+
+
+
   

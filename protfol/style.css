@@ -9,6 +9,8 @@
 
 body {
     overflow-x: hidden;
+
+    ;
 }
 
 * {
@@ -54,6 +56,10 @@ html {
   .drop-down {
     display: flex; /* Hidden on larger screens */
     cursor: pointer;
+  }
+
+  #drop-down-btn {
+   
   }
 
   
@@ -1076,7 +1082,7 @@ h1{
         }
     }
 
-    @media (min-width: 390px) {
+    @media (max-width: 390px) {
         #dynamicText {
             font-size: 1.7rem;
         }
@@ -1089,7 +1095,7 @@ h1{
             font-size: 1.4rem;
         }
     }
-    @media (min-width: 400px) {
+    @media (max-width: 400px) {
         #dynamicText {
             font-size: 1.5rem;
         }

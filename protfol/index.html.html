@@ -16,7 +16,7 @@
 <body>
   <div class="container">
     <!-- Navigation Bar-->
-    <div class="navibar">
+    <div class="navibar" >
         <div class="logo-title">
             <img class="logo" src="/images/V-logo-removebg-preview.png" alt="name-logo"/>
 
@@ -24,10 +24,10 @@
 
         </div>
 
-        <div class="drop-down" onclick="toggleMenu()">
-          <a href="#" id="dropdown" style="color: black;"> 
-            <i class="fa-solid fa-bars"></i>
-          </a>
+        <div class="drop-down" onclick="toggleMenu()" >
+          <!-- <a href="#" id="dropdown" style="color: black;"> 
+            <i class="fa-solid fa-bars" id="drop-down-btn"></i>
+          </a> -->
         </div>
 
         <div class="navTages">
@@ -42,7 +42,7 @@
     </div>
 
     <!--HomePage-->
-    <div class="homePage" id="#home">
+    <div class="homePage"  id="Home">
        <div class="header-info"> 
         <h1>
             Hi There!  
@@ -81,8 +81,8 @@
     </div>
 
     <!--Profile--Information -->
-  <div>
-    <div class="profile" data-aos="fade-up" data-aos-duration="1500" id="#About">   
+  <div id="About">
+    <div class="profile" data-aos="fade-up" data-aos-duration="1500" >   
         <h1>
             <svg class="profile-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50" fill="#333">
                 <path d="M12 12c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm0 2c-3.31 0-10 1.67-10 5v3h20v-3c0-3.33-6.69-5-10-5z"/>
@@ -113,7 +113,7 @@
 
         <div data-aos="fade-left" data-aos-duration="3000">
             <p id="para1">
-                I am a Full-Stack developer based in Solapur, INDIA.
+                I am a Front-end Web-Developer based in Solapur, INDIA.
                 I am an Mechanical Engineering undergraduate from Walchand Institute Of Technology.
                 I am very passionate about improving my coding skills & developing applications & websites.
                 Working for myself to improve my skills
@@ -147,7 +147,7 @@
 
 
       <!-- Others Skills-->
-    <div class="skill-body"  data-aos="fade-up" data-aos-duration="1500">
+    <div class="skill-body" id="Skill" data-aos="fade-up" data-aos-duration="1500">
         <section id="other-skills">
             <h2>Other Skills</h2>
             <div class="skills-grid">
@@ -230,7 +230,7 @@
     <!-- My Education-->
     
 
-    <div class="education-section">
+    <div class="education-section" id="Education">
       <div class="education-title">
         <!--
           <svg class="graduation-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" >
@@ -286,7 +286,7 @@
   </div>
 
   <!-- Review-Section -->
- <div class="review-section">
+ <div class="review-section" >
   <!-- Vardhaman's Portfolio -->
 
   
@@ -310,7 +310,7 @@
   </div>
 
   <!-- Contact Info -->
-  <div class="review-column" id="three">
+  <div class="review-column" id="three" >
       <h3 id="review-title">Contact Info</h3>
       <p><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="currentColor"><path d="M2 7v1h1v9c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8h1V7H2zm3 0h14v9H5V7zm8 11v-1H7v1h6zm5-2H7v1h10v-1z"/></svg> Mobile: 91XX XX XX </p>
       <p><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="currentColor"><path d="M12 2a9 9 0 100 18 9 9 0 000-18zm0 16.8A7.8 7.8 0 0112 4a7.8 7.8 0 010 15.6zm0-2.9a4.8 4.8 0 01-4.5-2.8h9a4.8 4.8 0 01-4.5 2.8z"/></svg> Email: vardhamanmehta8@gmail.com</p>
@@ -319,7 +319,7 @@
 </div>
 
   <!--End-Section -->
-<div class="end-section">
+<div class="end-section" >
   <hr>
   <p id="end-p">
     Designed ❤️ By
